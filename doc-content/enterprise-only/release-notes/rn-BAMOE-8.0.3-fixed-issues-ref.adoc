@@ -19,10 +19,6 @@
 * Some events are missed in event emitters (Elastic Search) [https://issues.redhat.com/browse/RHPAM-4584[RHPAM-4584]]
 * Update Quarkus version in PIM to support keystore and trustore passwords to be stored on vault [https://issues.redhat.com/browse/RHPAM-4423[RHPAM-4423]]
 
-== Red Hat build of Kogito
-//* BPMN files contaning (Java) ServiceTask created using VSCode BPMN Editor causes parser errors in maven build [https://issues.redhat.com/browse/RHPAM-4604[RHPAM-4604]]
-* Address the security alerts from Dependabot [https://issues.redhat.com/browse/RHPAM-4665[RHPAM-4665]]
-
 == DMN Designer
 * DMN extend rule to catch non-normalized named elements [https://issues.redhat.com/browse/RHDM-1957[RHDM-1957]]
 
@@ -33,7 +29,6 @@
 * The `HttpClient` cannot be converted to `okhttp3.OkHttpClient` [https://issues.redhat.com/browse/RHPAM-4579[RHPAM-4579]]
 * Kogito Builder image does not contain the Red Hat repositories [https://issues.redhat.com/browse/RHPAM-4680[RHPAM-4680]]
 * Add the Red Hat GA maven repository to the active profiles on the `settings.xml` file [https://issues.redhat.com/browse/RHPAM-4633[RHPAM-4633]]
-* Address the security alerts from Dependabot [https://issues.redhat.com/browse/RHPAM-4655[RHPAM-4655]]
 
 == Decision engine
 * `NullPointerException` in `mvel` MathProcessor with equality check when null property is on right side [https://issues.redhat.com/browse/RHPAM-4642[RHPAM-4642]]
