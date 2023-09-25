@@ -5,8 +5,6 @@
 
 == {CENTRAL}
 * Dashbuilder does not support the type MILLISECOND [https://issues.redhat.com/browse/RHPAM-4659[RHPAM-4659]]
-* Persistent cross-site scripting (XSS) [https://issues.redhat.com/browse/RHDM-1961[RHDM-1961]]
-//* An exception occurs while using expressions with the `$` character in BRL condition in GDST [https://issues.redhat.com/browse/RHDM-1938[RHDM-1938]]
 * Tasks listed twice after they are completed in Business Central [https://issues.redhat.com/browse/RHPAM-4611[RHPAM-4611]]
 * Session cookie without a secure attribute set [https://issues.redhat.com/browse/RHPAM-4431[RHPAM-4431]]
 * `drools.workingMemory` is not resolved in the executable model with the `mvel` dialect [https://issues.redhat.com/browse/RHDM-1960[RHDM-1960]]
