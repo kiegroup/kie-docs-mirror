@@ -1,0 +1,27 @@
+[id='rn-BAMOE-8.0.4-known-issues-ref']
+= Known limitations in {PRODUCT} 8.0.4
+
+This section lists known limitations with {PRODUCT} 8.0.4.
+
+[NOTE]
+====
+Review the information on the https://www.ibm.com/support/pages/node/6596921[IBM Business Automation Manager Open Editions {ENTERPRISE_VERSION} known limitations] page for limitations identified after release.
+====
+
+== {CENTRAL}
+
+.Business Central EAP7 deployable ZIP 8.0.4 cannot be updated with the update tool [https://issues.redhat.com/browse/RHPAM-4841[RHPAM-4841]]
+
+Issue:
+
+If you use the update tool to update an {PRODUCT} 8.0.4 `rhpam-business-central-eap7-deployable` installation to release 8.0.4.SP1, the update fails with the following error:
+
+[source]
+----
+ERROR - The patch is not valid for the distribution and version!
+----
+
+Workaround:
+
+. Download the `build.metadata` file attached to [https://issues.redhat.com/browse/RHPAM-4841[RHPAM-4841]] to the `business-central.war/META-INF` directory in your {CENTRAL} installation.
+. Run the update tool again.
