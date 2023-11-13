@@ -23,5 +23,5 @@ ERROR - The patch is not valid for the distribution and version!
 
 Workaround:
 
-. Download the `build.metadata` file attached to [https://issues.redhat.com/browse/RHPAM-4841[RHPAM-4841]] to the `business-central.war/META-INF` directory in your {CENTRAL} installation.
+. Download the `build.metadata` file attached to https://issues.redhat.com/browse/RHPAM-4841[RHPAM-4841] to the `business-central.war/META-INF` directory in your {CENTRAL} installation.
 . Run the update tool again.
