@@ -3,6 +3,8 @@
 
 The runtime manager manages the {PROCESS_ENGINE} and task service in synchronization. For more information about the runtime manager, see xref:runtime-manager-con_{context}[].
 
+NOTE: {PRODUCT} does not support the use of EJB timers from a Spring MVC application.
+
 To set up the runtime manager in the Spring framework, use the following factory beans:
 
 * `org.kie.spring.factorybeans.RuntimeEnvironmentFactoryBean`
