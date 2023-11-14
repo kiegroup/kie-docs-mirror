@@ -1,0 +1,22 @@
+[id='rn-7.13.4-known-issues-ref']
+= Known limitations in {PRODUCT} 7.13.4
+
+This section lists known limitations with {PRODUCT} 7.13.4.
+
+== {CENTRAL}
+
+.Business Central EAP7 deployable zip from 7.13.4 cannot be updated by the update tool [https://issues.redhat.com/browse/RHPAM-4838[RHPAM-4838]]
+
+Issue:
+
+If you use the update tool to update an {PRODUCT} 7.13.4 `rhpam-business-central-eap7-deployable` installation to release 7.13.4SP1, the update fails with the following error:
+
+[source]
+----
+ERROR - The patch is not valid for the distribution and version!
+----
+
+Workaround:
+
+. Download the `build.metadata` file attached to https://issues.redhat.com/browse/RHPAM-4838[RHPAM-4838] to the `business-central.war/META-INF` directory in your {CENTRAL} installation.
+. Run the update tool again.
