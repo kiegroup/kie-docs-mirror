@@ -42,6 +42,8 @@ include::{enterprise-dir}/release-notes/rn-7.13.2-fixed-issues-ref.adoc[leveloff
 
 include::{enterprise-dir}/release-notes/rn-7.13.3-fixed-issues-ref.adoc[leveloffset=+1]
 
+include::{enterprise-dir}/release-notes/rn-7.13.4-known-issues-ref.adoc[leveloffset=+1]
+
 include::{enterprise-dir}/release-notes/rn-7.13.4-fixed-issues-ref.adoc[leveloffset=+1]
 
 ifdef::parent-context[:context: {parent-context}]
