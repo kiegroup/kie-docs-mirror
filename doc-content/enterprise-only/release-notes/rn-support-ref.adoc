@@ -3,6 +3,8 @@
 
 This section highlights supported version updates in {PRODUCT} {PRODUCT_VERSION}.
 
+NOTE: Oracle WebLogic Server (WLS) was not tested or verified for {PRODUCT} 7.13.4 SP2.
+
 ifdef::PAM[]
 For a complete list of supported configurations, see https://access.redhat.com/articles/3405381[{PRODUCT_PAM} 7 Supported Configurations].
 endif::PAM[]
