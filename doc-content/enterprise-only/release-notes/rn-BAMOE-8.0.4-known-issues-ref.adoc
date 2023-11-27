@@ -14,7 +14,7 @@ Review the information on the https://www.ibm.com/support/pages/node/6596921[IBM
 
 Issue:
 
-If you use the update tool to update an {PRODUCT} 8.0.4 `rhpam-business-central-eap7-deployable` installation to release 8.0.4.SP1, the update fails with the following error:
+If you use the update tool to update an {PRODUCT} 8.0.4 `rhpam-business-central-eap7-deployable` installation to release 8.0.4.SP1 (8.0.4-IF001), the update fails with the following error:
 
 [source]
 ----
