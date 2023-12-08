@@ -23,7 +23,7 @@ WARNING: Ensure the names of the {PRODUCT} deployments you copy do not conflict 
 
 . Add the following system property to your deployment’s `{EAP_VERSION}/jboss-eap-{EAP_VERSION}/standalone/configuration/standalone-full.xml` file:
 +
-`<property name="org.jbpm.casemgmt.showcase.url" value="/rhpam-case-mgmt-showcase"/>`
+`<property name="org.jbpm.casemgmt.showcase.url" value="/bamoe-case-mgmt-showcase"/>`
 
 . In a terminal application, navigate to *_EAP_HOME_/bin* and run the standalone configuration to start {CENTRAL}:
 +
