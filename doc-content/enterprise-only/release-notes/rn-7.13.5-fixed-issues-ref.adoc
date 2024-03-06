@@ -1,4 +1,4 @@
-[id='rn-7.14.5-fixed-issues-ref_{context}']
+[id='rn-7.13.5-fixed-issues-ref_{context}']
 = Fixed issues in {PRODUCT} 7.13.5
 
 {PRODUCT} 7.13.5 provides increased stability and fixed issues listed in this section.
@@ -32,10 +32,6 @@ endif::[]
 
 * Exclusion on kie-server affects custom endpoints [https://issues.redhat.com/browse/RHPAM-4876[RHPAM-4876]]
 
-
-== {OPENSHIFT}
-* D [https://issues.redhat.com/browse/RHPAM-4659[RHPAM-4659]]
-
 == Decision engine
 * Coercion from interger literal to BigDecimal bind variable [https://issues.redhat.com/browse/RHDM-1991[RHDM-1991]]
 
@@ -49,4 +45,4 @@ endif::[]
 
 * EXISTS and NOT do not work correctly with multiple constraints with BigDecimal [https://issues.redhat.com/browse/RHDM-2016[RHDM-2016]]
 
-* drools executable-model fails with a bind variable to a calculation result of int and BigDecimal [https://issues.redhat.com/browse/RHDM-2020[RHDM-2020]]
+* Drools executable-model fails with a bind variable to a calculation result of int and BigDecimal [https://issues.redhat.com/browse/RHDM-2020[RHDM-2020]]

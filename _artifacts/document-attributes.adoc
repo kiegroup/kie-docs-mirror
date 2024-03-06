@@ -105,7 +105,7 @@ endif::OP[]
 :EAP: Red Hat JBoss EAP
 :EAP_LONG: Red Hat JBoss Enterprise Application Platform
 :EAP_VERSION: 7.4
-:EAP_VERSION_LONG: 7.4.1
+:EAP_VERSION_LONG: 7.4.14
 :FUSE: Fuse
 :FUSE_LONG: Red Hat Fuse
 :FUSE_VERSION: 7.12
