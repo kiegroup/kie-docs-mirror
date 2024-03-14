@@ -1,7 +1,7 @@
 [id='rn-7.13.4-known-issues-ref']
-= Known limitations in {PRODUCT} 7.13.4
+= Known issues in {PRODUCT} 7.13.4
 
-This section lists known limitations with {PRODUCT} 7.13.4.
+This section lists known issues with {PRODUCT} 7.13.4.
 
 == {CENTRAL}
 
