@@ -1,0 +1,48 @@
+[id='rn-8.0.5-fixed-issues-ref_{context}']
+= Fixed issues in {PRODUCT} 8.0.5
+
+{PRODUCT} 8.0.5 provides increased stability and fixed issues listed in this section.
+
+== {CENTRAL}
+* Cannot clone project by ssh when business central is integrated with LDAP [https://issues.redhat.com/browse/RHPAM-4478[RHPAM-4478]]
+
+* System error occurs when you access the Form asset or the Task form which have the listbox component [https://issues.redhat.com/browse/RHPAM-4778[RHPAM-4778]]
+
+* Duplicate signals received [https://issues.redhat.com/browse/RHPAM-4813[RHPAM-4813]]
+
+
+
+ifdef::PAM[]
+
+== {PROCESS_ENGINE_CAP}
+* Deadlock is happening on SessionInfo and ProcessInstanceInfo tables [https://issues.redhat.com/browse/RHPAM-4759[RHPAM-4759]]
+
+* NPE occurs while parsing BPMN process after modifying from RHPAM 7.13.2 web designer [https://issues.redhat.com/browse/RHPAM-4801[RHPAM-4801]]
+
+* Timers not removed from session and TimerMappingInfo when jobHandle is not found [https://issues.redhat.com/browse/RHPAM-4835[RHPAM-4835]]
+
+* Duplicate timer created for Task SLA Due date with AsyncMode env setting [https://issues.redhat.com/browse/RHPAM-4836[RHPAM-4836]]
+
+endif::[]
+
+== {KIE_SERVER}
+* Backport DROOLS-7014 to Red Hat Decision Manager libraries [https://issues.redhat.com/browse/RHDM-2006[RHDM-2006]]
+
+* An immutable KIE container is not deployed with auto scan in SpringBoot kie-server after upgrading to 7.13.1 [https://issues.redhat.com/browse/RHPAM-4800[RHPAM-4800]]
+
+* Exclusion on kie-server affects custom endpoints [https://issues.redhat.com/browse/RHPAM-4876[RHPAM-4876]]
+
+== Decision engine
+* Coercion from interger literal to BigDecimal bind variable [https://issues.redhat.com/browse/RHDM-1991[RHDM-1991]]
+
+* Behavior of multiple updates in executable model is different from non-executable model [https://issues.redhat.com/browse/RHDM-1993[RHDM-1993]]
+
+* Performance degradation when increasing concurrency of rule execution in multi threads [https://issues.redhat.com/browse/RHDM-1994[RHDM-1994]]
+
+* Non-matching rule fires randomly and results in infinite-loop [https://issues.redhat.com/browse/RHDM-2007[RHDM-2007]]
+
+* The Drools executable-model fails with BigDecimal coercion for method arguments [https://issues.redhat.com/browse/RHDM-2014[RHDM-2014]]
+
+* EXISTS and NOT do not work correctly with multiple constraints with BigDecimal [https://issues.redhat.com/browse/RHDM-2016[RHDM-2016]]
+
+* Drools executable-model fails with a bind variable to a calculation result of int and BigDecimal [https://issues.redhat.com/browse/RHDM-2020[RHDM-2020]]
