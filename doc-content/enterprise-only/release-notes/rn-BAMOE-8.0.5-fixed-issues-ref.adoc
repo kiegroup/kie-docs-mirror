@@ -17,7 +17,7 @@ ifdef::PAM[]
 == {PROCESS_ENGINE_CAP}
 * Deadlock is happening on SessionInfo and ProcessInstanceInfo tables [https://issues.redhat.com/browse/RHPAM-4759[RHPAM-4759]]
 
-//* NPE occurs while parsing BPMN process after modifying from RHPAM 7.13.2 web designer [https://issues.redhat.com/browse/RHPAM-4801[RHPAM-4801]]
+* NPE occurs while parsing BPMN process after modifying from RHPAM 7.13.2 web designer [https://issues.redhat.com/browse/RHPAM-4801[RHPAM-4801]]
 
 * Timers not removed from session and TimerMappingInfo when jobHandle is not found [https://issues.redhat.com/browse/RHPAM-4835[RHPAM-4835]]
 
