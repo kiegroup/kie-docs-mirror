@@ -10,12 +10,11 @@ Review the information on the https://www.ibm.com/support/pages/node/6596921[IBM
 
 == {CENTRAL}
 
-.Business Central EAP7 deployable ZIP 8.0.5 cannot be updated with the update tool
-//[https://issues.redhat.com/browse/RHPAM-4841[RHPAM-4841]]
+.Business Central EAP7 deployable ZIP 8.0.4 cannot be updated with the update tool [https://issues.redhat.com/browse/RHPAM-4841[RHPAM-4841]]
 
 Issue:
 
-If you use the update tool to update an {PRODUCT} 8.0.4 `rhpam-business-central-eap7-deployable` installation to release 8.0.5.SP1 (8.0.5-IF001), the update fails with the following error:
+If you use the update tool to update an {PRODUCT} 8.0.4 `rhpam-business-central-eap7-deployable` installation to release 8.0.5, the update fails with the following error:
 
 [source]
 ----
@@ -24,14 +23,5 @@ ERROR - The patch is not valid for the distribution and version!
 
 Workaround:
 
-. Open the `standalone/deployments/business-central.war/META-INF/MANIFEST.MF` file in a text editor.
-. Edit the implementation version and save the file:
-+
-[source]
-----
-Implementation-Version: 7.67.2.Final-redhat-00008
-----
-
+. Download the `build.metadata` file attached to https://issues.redhat.com/browse/RHPAM-4841[RHPAM-4841] to the `business-central.war/META-INF` directory in your {CENTRAL} installation.
 . Run the update tool again.
-
-NOTE: This issue only affects the `business-central.war` file in the 8.0.4 distribution. KIE Server is not affected and other versions such as 8.0.3 or 8.0.4-IF001 are not affected.
